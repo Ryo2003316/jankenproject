@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ryo YOSHIDA">
+    <meta name="keywords" content="javascript, if,for">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>じゃんけんプログラム</title>
+</head>
+
+<body>
+
+    
+    <header>
+        <h1 id="top">YOU VS コンピュータ じゃんけん</h1>
+    </header>
+
+    <main>
+        <h3>下の（グー・チョキ・パー）から1つ選んでね↓</h3>
+
+        <div>
+            <button type="button" onclick="janken(1)"><img src="IMG_5196.JPG" width="150" height="120" alt="グー" ></button>
+            <button type="button" onclick="janken(2)"><img src="IMG_5197.JPG" width="150" height="120" alt="チョキ" ></button>
+            <button type="button" onclick="janken(3)"><img src="IMG_5195.JPG" width="150" height="120" alt="パー" ></button>
+
+            <p>↓ ↓ ↓ 結果 ↓ ↓ ↓</p>
+            <h2 id="janken">◯ ◯ ◯ ◯ ◯</h2>
+        </div>
+
+    </main>
+    <script src="./js/main.js"></script>
+</body>
+</html>
